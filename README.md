@@ -19,25 +19,26 @@ Carpeta destinada a las pruebas unitarias, que permiten asegurar la calidad y ro
 Documenta la finalidad, instalación y uso del proyecto.
 
 ## Estructura del proyecto
+```plaintext
 gestor_examenes/
 ├── main.py
 ├── sistema_gestion.py
 ├── models/
-│   ├── init.py
+│   ├── __init__.py
 │   ├── registro.py
 │   ├── examen.py
 │   ├── clase.py
 │   ├── horario.py
-│   └── profesor.py
+│   ├── profesor.py
 ├── data/
-│   └── datos.json
+│   ├── datos.json
 ├── utils/
-│   ├── init.py
-│   └── menu.py
+│   ├── __init__.py
+│   ├── menu.py
 ├── tests/
-│   ├── init.py
-│   └── test_sistema.py
-└── README.md
+│   ├── __init__.py
+│   ├── test_sistema.py
+├── README.md
 
 ## Uso
 
