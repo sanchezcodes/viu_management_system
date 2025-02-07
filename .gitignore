@@ -1,0 +1,43 @@
+# Bytecode de Python y archivos compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+ENV/
+env/
+.venv/
+
+# Directorios de distribución y empaquetado
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Logs e informes de pruebas
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+.pytest_cache/
+
+# Archivos de traducciones
+*.mo
+*.pot
+
+# Archivos de configuración de IDEs y editores
+.vscode/
+.idea/
+
+# Archivos de datos locales (ajusta según necesidad)
+data/datos.json
+
+# Otros archivos temporales o de respaldo
+*.log
+*.bak
